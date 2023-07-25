@@ -1,0 +1,31 @@
+create table `schema`
+(
+	`id` int(11) not null auto_increment primary key,
+    `rows` int(11) not null,
+    `columns` int(11) not null
+);
+
+create table `cell`
+(
+ 	`row` int(11) not null,
+    `column` int(11) not null,
+    `schema` int(11) not null,
+    `value` char not null,
+    `color` char(100) not null,
+    primary key(`row`, `column`, `schema`)
+);
+
+create table `definition`
+(
+    `index` int(11) not null,
+    `positioning` int(11) not null, 
+    `text` char(255) not null,
+    primary key(`index`, `positioning`)
+);
+
+create table `words`
+(
+	`number` int(11) not null auto_increment primary key,
+    `word` char(100) not null,
+    `definition` char(255) not null
+);

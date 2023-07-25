@@ -1,0 +1,34 @@
+<?php include('./js/InserimentoCelle.php') ?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name = "author" content = "Simone Bensi">
+		<meta name = "generator" content = "Notepad++">
+		<meta name = "description" content = "Cruciverba online">
+		<meta name = "keywords" content = "Cruciverba, Definizioni">		
+		<title> Crea il tuo cruciverba </title>
+
+		<link rel="stylesheet" href="./css/stile.css" type="text/css" media="screen">
+
+		<script src="./js/Cruciverba.js"></script>
+		<script src="./js/Stampa.js"></script>
+		<script src="./js/Stampa2.js"></script>
+		<script src="./js/Creazione2.js"></script>
+		<script src="./js/Evidenzia2.js"></script>
+		<script src="./js/Movimento2.js"></script>
+		<script src="./js/Movimento.js"></script>
+		<script src="./js/Cancella2.js"></script>
+		<script src="./js/Controllo2.js"></script>
+		<script src="./js/Inserimento2.js"></script>
+
+	</head>
+
+
+	<body onLoad="create()">
+
+	</body>
+
+
+</html>
